@@ -17,7 +17,7 @@ class App extends Component {
           <Jumbotron fluid>
             <div className="container">
               <Link to={`/${path}/`}>
-                <h1 className="display-4">#Spoilers</h1>
+                <h1 className="display-4">#spoilers</h1>
               </Link>
               <p className="lead">
                 Não se preocupe, tudo aqui é brincadeira. Ou não :)

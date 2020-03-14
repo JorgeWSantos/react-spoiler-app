@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ba0c6ff59b883889dde77a10018c7b0",
+    "revision": "61db7c03b1ebf5a7cfff0b58d4b5ba01",
     "url": "/react-spoiler-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-spoiler-app/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "ce6dda6c96e92cc6e2e2",
+    "revision": "fcfa81261c70b4959f34",
     "url": "/react-spoiler-app/static/css/main.f0d84241.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-spoiler-app/static/js/2.b2b385d5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ce6dda6c96e92cc6e2e2",
-    "url": "/react-spoiler-app/static/js/main.7aa6d0a8.chunk.js"
+    "revision": "fcfa81261c70b4959f34",
+    "url": "/react-spoiler-app/static/js/main.77639f0e.chunk.js"
   },
   {
     "revision": "950a353e7ee557ae63cc",

@@ -9,18 +9,20 @@ import Jumbotron from 'react-bootstrap/Jumbotron'
 
 class App extends Component {
   render() {
+    const path = "react-spoiler-app"
+
     return (
       <BrowserRouter>
         <div>
           <Jumbotron fluid>
             <div className="container">
-              <Link to="/">
+              <Link to={`/${path}/`}>
                 <h1 className="display-4">#Spoilers</h1>
               </Link>
               <p className="lead">
                 Não se preocupe, tudo aqui é brincadeira. Ou não :)
               </p>
-              <Link to="/criar" className="btn btn-primary">
+              <Link to={`/${path}/criar`} className="btn btn-primary">
                 Criar
               </Link>
             </div>
@@ -28,10 +30,11 @@ class App extends Component {
           <div className="container">
             <div className="row justify-content-md-center">
               <main className="col-10" role="main">
-                <Route path="/" exact component={ListarSpoiler} />
-                <Route path="/criar/" component={CriarSpoiler} />
-                <Route path="/editar/:id" component={EditarSpoiler} />
-                <Route path="/remover/:id" component={ConfirmarRemoverSpoiler}/>
+                {/* <Route path="/react-spoiler-app/" component={ListarSpoiler} /> */}
+                <Route path={`/${path}/`} exact component={ListarSpoiler} />
+                <Route path={`/${path}/criar/`} component={CriarSpoiler} />
+                <Route path={`/${path}/editar/:id`} component={EditarSpoiler} />
+                <Route path={`/${path}/remover/:id`} component={ConfirmarRemoverSpoiler}/>
               </main>
             </div>
           </div>

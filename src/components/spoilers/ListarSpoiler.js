@@ -12,7 +12,7 @@ function ListarSpoiler (props){
   useEffect(() => {
 
     getAll(onSuccess, onFail);
-
+    
     function onSuccess(spoilers){
 
       spoilers.then(dados => { setSpoiler(dados)})
